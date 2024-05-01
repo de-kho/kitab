@@ -70,7 +70,7 @@ export default function BasicStatistics() {
     <>
       <HeaderAdmin/>
       <Box bgImage={'/img/background.svg'} minH={'780px'}>
-        <Box maxW="7xl" mx={'auto'} pt={6} px={{ base: 2, sm: 12, md: 17 }}>
+        <Box maxW="7xl" mx={'auto'} pt={6} px={{ base: 2, sm: 12, md: 17 }} mb={'80px'}>
           <chakra.h1 textAlign={'center'} fontSize={'4xl'} mt={'60px'} mb={'15px'} fontWeight={'bold'}>
             بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
           </chakra.h1>

@@ -113,6 +113,7 @@ const EditPage = () => {
         const halamanRef = ref(database, `halaman`);
 
         push(halamanRef, {
+            id_buku: id,
             nomor_halaman: nomorHalaman,
             isi_halaman: isiHalaman,
             judul: judul,

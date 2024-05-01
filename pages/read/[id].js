@@ -45,7 +45,7 @@ export default function ReadPage() {
               </StatLabel>
               <StatNumber fontSize={'md'} fontWeight={'medium'}>
                     <Container borderTop={'2px solid #ddd'} minH={'420px'} mb={'20px'}>
-                                <Box mt={'10px'} fontSize={'md'} whiteSpace={'pre-line'} dangerouslySetInnerHTML={{
+                                <Box mt={'10px'} fontSize={'md'} dangerouslySetInnerHTML={{
                                     __html: halaman.isi_halaman,
                                 }} />
                                 
