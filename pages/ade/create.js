@@ -121,7 +121,7 @@ function AturSetting() {
         
                  {/* Container */}
                  <Flex
-                    w={["100%", "100%", "35%"]}
+                    w={["100%", "100%", "100%"]}
                     background="#c7b5e6"
                     bgImage={'/img/background.svg'}
                     backgroundSize='auto'
@@ -138,11 +138,8 @@ function AturSetting() {
                     <Heading ps={4} letterSpacing="tight" size="sm" my={4}>Tambah Pemberitahuan</Heading>
                     <Flex p={'6px'} mb={'13px'} justifyContent={'center'} bgColor={'#673ab7'}>
 
-                          <Avatar>
-                            <AvatarBadge borderColor='papayawhip' bg='tomato' boxSize='1.25em' /> 
-                          </Avatar> 
                           <Text fontWeight={'bold'} textColor={'white'} fontSize={'10px'} ml={'15px'} alignSelf={'center'}>
-                              TAMBAH NOTIFIKASI <br/>
+                              TAMBAH KITAB <br/>
                           </Text>
                 
                         </Flex>
@@ -153,11 +150,11 @@ function AturSetting() {
                                     <Input placeholder='Isi Judul' type='text' value={namaKitab} onChange={(e) => setTitle(e.target.value)}  />
                                 </FormControl>
                                 <FormControl mt={'5px'}>
-                                    <FormLabel>description</FormLabel>
-                                    <Textarea placeholder='Isi Deskripsinya' height={'300px'} size='md' type='text' value={halaman} onChange={(e) => setDesc(e.target.value)} />
+                                    <FormLabel>Halaman</FormLabel>
+                                    <Input placeholder='Halaman' type='text' value={halaman} onChange={(e) => setDesc(e.target.value)}  />
                                 </FormControl>
-                         
-                                <Button width={'100%'} mt={'10px'} colorScheme='teal' type='submit' size='md'>SAVE</Button>
+              
+                                <Button width={'100%'} mt={'60px'} colorScheme='teal' type='submit' size='md'>SAVE</Button>
                             </form>
   
                         </Box>
