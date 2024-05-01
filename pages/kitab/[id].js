@@ -53,7 +53,7 @@ export default function HalamanDetail() {
                     rounded={'lg'}>
                     <Flex justifyContent={'space-between'}>
                         <Box pl={{ base: 2, md: 4 }}>
-                        <StatLabel fontSize={'2xl'} fontWeight={'medium'} isTruncated>
+                        <StatLabel fontSize={'xl'} fontWeight={'medium'} isTruncated>
                             {halaman.judul}
                         </StatLabel>
                         <StatNumber fontSize={'md'} fontWeight={'medium'}>
